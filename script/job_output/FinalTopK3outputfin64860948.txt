@@ -1,0 +1,12 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) CCconfig        6)  ucx/1.14.1         11) flexiblas/3.3.1
+  2) gentoo/2023     7)  libfabric/1.18.0   12) imkl/2023.2.0
+  3) gcccore/.12.3   8)  pmix/4.2.4         13) StdEnv/2023
+  4) gcc/12.3        9)  ucc/1.2.0
+  5) hwloc/2.9.1     10) openmpi/4.1.5
+Training with learning_rate=3e-5, train_epochs=2, output_dir=LoraFineTune/FinalFinalTopK3WH_ans_test3e-5_ep2_n20000_r32_a64_d0.1_q_v_b1_g8, data_num=20000
+LoRA config: rank=32, alpha=64, dropout=0.1, modules=q_proj,v_proj
+Batch config: batch_size=1, gradient_accumulation_steps=8
+python: can't open file '/project/6099704/ityousif/fineTuneLLM.py': [Errno 2] No such file or directory
